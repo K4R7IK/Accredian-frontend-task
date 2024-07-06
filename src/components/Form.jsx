@@ -18,7 +18,7 @@ const Form = ({ text }) => {
     if (Object.keys(newErrors).length === 0) {
       setLoading(true);
       try {
-        const response = await fetch("http://localhost:3000/submit", {
+        const response = await fetch("https://accredian-backend-task-zax6.onrender.com:10000", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

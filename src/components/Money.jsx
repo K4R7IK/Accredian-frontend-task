@@ -3,39 +3,28 @@ import MoneyPic from "../assets/money.png";
 
 const Money = () => {
   return (
-    <>
+    <div className="">
       <img
         src={MoneyPic}
         alt="Money"
-        className="object-top h-52 absolute left-[13%] top-[26%] rotate-180 scale-x-[-1]"
-        style={{
-          clipPath: "polygon(0 0, 100% 0, 100% 70%, 0 70%)",
-        }}
+        className="object-top h-52 absolute lg:left-[13%] lg:top-[30%] rotate-180 scale-x-[-1]"
       />
       <img
         src={MoneyPic}
         alt="Money"
-        className="object-top h-52 absolute right-[13%] top-[26%] rotate-180"
-        style={{
-          clipPath: "polygon(0 0, 100% 0, 100% 70%, 0 70%)",
-        }}
+        className="object-top h-52 absolute lg:right-[37%] lg:top-[31%] rotate-180"
       />
       <img
         src={MoneyPic}
         alt="Money"
-        className="object-top h-52 absolute right-[37%] top-[31%] rotate-180"
+        className="object-top h-52 absolute lg:left-[42%] lg:top-[90%] z-[3] scale-x-[-1] scale-90"
       />
       <img
         src={MoneyPic}
         alt="Money"
-        className="object-top h-52 absolute left-[42%] top-[90%] z-[3] scale-x-[-1] scale-90"
+        className="object-top h-52 absolute lg:right-[14%] lg:top-[60%] rotate-180 scale-x-[-1] scale-90"
       />
-      <img
-        src={MoneyPic}
-        alt="Money"
-        className="object-top h-52 absolute right-[14%] top-[60%] rotate-180 scale-x-[-1] scale-90"
-      />
-    </>
+    </div>
   );
 };
 
